@@ -11,11 +11,7 @@ gr="\033[1;32m"
 cy="\033[1;36m"
 def banner():
 	os.system('clear')
-	print(f"""
-	{re}╔═╗{cy}┌─┐┌┬┐┬ ┬┌─┐
-	{re}╚═╗{cy}├┤  │ │ │├─┘
-	{re}╚═╝{cy}└─┘ ┴ └─┘┴   v1.2
-	""")
+	print(f"Mustafa")
 banner()
 print(gr+"[+] Installing requierments ...")
 os.system('python3 -m pip install telethon')
